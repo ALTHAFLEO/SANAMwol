@@ -73,4 +73,4 @@ Array.prototype.remove = function() {
     return this;
 };
 
-SANAMwol.raganork();
+Paathu.raganork();
