@@ -10,7 +10,7 @@ const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const events = require("./events");
-const Paathu = require("./paathu");
+const SANAMwol = require("./sanamwol");
 const chalk = require('chalk');
 const config = require('./config');
 const axios = require('axios');
@@ -73,4 +73,4 @@ Array.prototype.remove = function() {
     return this;
 };
 
-Paathu.raganork();
+SANAMwol.raganork();
